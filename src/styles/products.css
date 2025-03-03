@@ -191,3 +191,29 @@
     border-radius: 50%
 
 }
+
+.interest-button {
+    background: linear-gradient(45deg, #660001, #cc0704);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.interest-button:hover {
+    background: linear-gradient(45deg, #feb47b, #ff7e5f);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.interest-button:active {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
