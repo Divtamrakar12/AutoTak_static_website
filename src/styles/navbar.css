@@ -7,6 +7,8 @@
   background-color: #ffffff !important;
   font-weight: bold;
   font-size: 0.9rem;
+  border-bottom: solid !important;
+  border-bottom-color: #c90300 !important;
 }
 .custom-navbar button {
   font-size: 1.0rem;

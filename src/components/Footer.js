@@ -3,7 +3,7 @@
 import "bootstrap/dist/css/bootstrap.min.css"; // ✅ Import Bootstrap CSS
 import "@/styles/footer.css"; // ✅ Ensure this file exists
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faTwitter, faGoogle, faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faGoogle, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faHome, faEnvelope, faPhone, faPrint } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer() {
@@ -21,19 +21,10 @@ export default function Footer() {
             <FontAwesomeIcon icon={faFacebookF} />
           </a>
           <a href="#" className="text-white me-3">
-            <FontAwesomeIcon icon={faTwitter} />
-          </a>
-          <a href="#" className="text-white me-3">
-            <FontAwesomeIcon icon={faGoogle} />
-          </a>
-          <a href="#" className="text-white me-3">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
           <a href="#" className="text-white me-3">
             <FontAwesomeIcon icon={faLinkedin} />
-          </a>
-          <a href="#" className="text-white me-3">
-            <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
       </section>

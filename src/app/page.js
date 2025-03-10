@@ -234,7 +234,7 @@ export default function Home() {
             <div className="card-body">
               <h5 className="card-title">John Bean 3D Wheel Aligner</h5>
               {/* Read More Link to Product Page */}
-              <a href="/products" className="btn btn-link read-more-btn">
+              <a href="/products" className="read-more-btn">
                 Read More
               </a>
               {/* Centered Enquiry Button & WhatsApp Icon with Space */}
@@ -511,4 +511,6 @@ export default function Home() {
         </div>
       </div>
     </div>
-)};
+
+  )
+};

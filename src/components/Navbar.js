@@ -148,16 +148,13 @@ export default function Navbar() {
           <div className="d-flex flex-column align-items-center">
           {/* Social Media Icons */}
             <div className="d-flex gap-3 mb-2">
-              <a href="#" style={{ color: "#cd0402", fontSize: "1.0rem " }}>
+              <a href="#" style={{fontSize: "1.0rem " }}>
                 <FontAwesomeIcon icon={faFacebookF} />
               </a>
-              <a href="#" style={{ color: "#cd0402", fontSize: "1.0rem " }}>
-                <FontAwesomeIcon icon={faTwitter} />
-              </a>
-              <a href="#" style={{ color: "#cd0402", fontSize: "1.0rem " }}>
+              <a href="#" style={{fontSize: "1.0rem " }}>
                 <FontAwesomeIcon icon={faInstagram} />
               </a>
-              <a href="#" style={{ color: "#cd0402", fontSize: "1.0rem "}}>
+              <a href="#" style={{fontSize: "1.0rem "}}>
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
             </div>
